@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        #div1{
+            border: 1px solid black;
+            background-color: bisque;
+
+        }
+        #div2{
+            border: 1px solid black;
+            background-color: bisque;
+
+        }
+
+    </style>
+
+</head>
+<body>
+    <div id="div1">
+        
+<h2>What Can JavaScript Do?</h2>
+
+<p>JavaScript can change HTML attribute values.</p>
+
+<p>In this case JavaScript changes the value of the src (source) attribute of an image.</p>
+<!-- I wrote the file path of the image I will use in the src sections--> 
+<button onclick="document.getElementById('myImage').src='web design\resimler\pic_bulbon.gif'">Turn on the light</button>
+
+<img id="myImage" src="web design\resimler\pic_bulboff.gif" style="width:100px">
+
+<button onclick="document.getElementById('myImage').src='web design\resimler\pic_bulboff.gif'">Turn off the light</button>
+
+<p id="demo">Bak şimdi burdayım</p>
+
+    </div>
+
+    <div id="div2">
+        <h1>My First Web Page</h1>
+        <p>My first paragraph.</p>
+    </div>
+
+</body>
+</html>
